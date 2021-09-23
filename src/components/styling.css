@@ -1,0 +1,188 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+/* Start Nav Bar  */
+.fonts {
+  font-weight: 900;
+}
+.x1 {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+/* End Nav Bar  */
+/* Start Carsoul  */
+.h1_a {
+  background-color: #00000075;
+  border-radius: 30px;
+  color: white;
+}
+.h1_a h1 {
+  color: #ffc000;
+}
+.h1_a:hover {
+  cursor: pointer;
+}
+
+/* End Carsoul  */
+/* Start TopSales  */
+.x2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: #ffc000;
+}
+.x2 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.imgcontain {
+  border-bottom: 1px solid #8080804d;
+  transition: 0.3s;
+  opacity: 75%;
+}
+.imgcontain:hover {
+  cursor: pointer;
+  transform: scale(95%);
+  opacity: 100%;
+}
+
+/* End TopSales  */
+/* Start About  */
+.x {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.x .abimg {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid #ffc000;
+  transition: 0.3s;
+}
+.x .abimg:hover {
+  transform: scale(105%);
+  opacity: 100%;
+}
+.x a {
+  margin: 5px;
+}
+.x .ic1 {
+  color: #1094f4;
+}
+.x .ic2 {
+  color: #da2d7b;
+}
+.x .ic3 {
+  color: #0a66c2;
+}
+.x h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/* End About  */
+/* Start Responsive  */
+.x3 {
+  background-color: #ffc000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.x3 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/* End Responsive */
+/* Start Filter  */
+.x4 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.x4 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.x4 .btns {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.x4 .btns button {
+  margin: 10px;
+}
+/* End Filter */
+/* Strt Footer  */
+.x5 {
+  display: flex;
+  justify-content: space-evenly;
+  grid-gap: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.x5 li:hover {
+  cursor: pointer;
+  color: #ffc000;
+}
+/* End Footer  */
+@media (max-width: 900px) {
+  .h1_a h1,
+  .h1_a h2 {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .x2 h1 {
+    font-size: 25px;
+  }
+  .x3 h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 700px) {
+  .x5 {
+    flex-direction: column;
+    padding: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .x h1,
+  .x h2 {
+    font-size: 25px;
+  }
+  .x .abimg {
+    width: 300px;
+    height: 300px;
+  }
+  .x {
+    flex-direction: column;
+  }
+}

@@ -6,6 +6,7 @@
   font-weight: 900;
 }
 .x1 {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -29,9 +30,18 @@
 .x2 {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-gap: 20px;
+  -moz-gap: 20px;
+  -ms-gap: 20px;
+  -o-gap: 20px;
   gap: 20px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   background-color: #ffc000;
 }
@@ -44,11 +54,19 @@
 }
 .imgcontain {
   border-bottom: 1px solid #8080804d;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
+  -webkit-opacity: 75%;
+  -moz-opacity: 75%;
+  -ms-opacity: 75%;
+  -o-opacity: 75%;
   opacity: 75%;
 }
 .imgcontain:hover {
   cursor: pointer;
+  -webkit-transform: scale(95%);
+  -ms-transform: scale(95%);
   transform: scale(95%);
   opacity: 100%;
 }
@@ -58,10 +76,21 @@
 .x {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-gap: 20px;
+  -moz-gap: 20px;
+  -ms-gap: 20px;
+  -o-gap: 20px;
   gap: 20px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .x .abimg {
@@ -69,10 +98,18 @@
   height: 300px;
   border-radius: 50%;
   border: 1px solid #ffc000;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 .x .abimg:hover {
+  -webkit-transform: scale(105%);
+  -ms-transform: scale(105%);
   transform: scale(105%);
+  -webkit-opacity: 100%;
+  -moz-opacity: 100%;
+  -o-opacity: 100%;
+  -ms-opacity: 100%;
   opacity: 100%;
 }
 .x a {
@@ -101,9 +138,18 @@
   background-color: #ffc000;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-gap: 20px;
+  -moz-gap: 20px;
+  -ms-gap: 20px;
+  -o-gap: 20px;
   gap: 20px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .x3 h1 {
@@ -119,11 +165,27 @@
 .x4 {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-gap: 20px;
+  -moz-gap: 20px;
+  -ms-gap: 20px;
+  -o-gap: 20px;
   gap: 20px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .x4 h1 {
   text-align: center;
   font-size: 40px;
@@ -142,11 +204,21 @@
 /* End Filter */
 /* Strt Footer  */
 .x5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  grid-gap: 20px;
+  -webkit-gap: 20px;
+  -moz-gap: 20px;
+  -ms-gap: 20px;
+  -o-gap: 20px;
   gap: 20px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
 }
 .x5 li:hover {
@@ -169,6 +241,9 @@
 }
 @media (max-width: 700px) {
   .x5 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding: 50px;
   }
@@ -183,6 +258,9 @@
     height: 300px;
   }
   .x {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 }

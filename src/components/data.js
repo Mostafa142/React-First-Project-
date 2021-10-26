@@ -1,5 +1,6 @@
+import image4 from './../assets/images/4.jpg';
 const data = [
-    { id: "1", product: "Adidas Running Shoes", description: "100$", src: "./Image/1.jpg", alt: "adidas Running shoes", category: "shoes" },
+    { id: "1", product: "Adidas Running Shoes", description: "100$", src:image4, alt: "adidas Running shoes", category: "shoes" },
     { id: "2", product: "Adidas Football Shoes", description: "300$", src: "./Image/2.jpg", alt: "Adidas Football Shoes", category: "shoes" },
     { id: "3", product: "PSG Messi T-Shirt", description: "150$", src: "./Image/3.jpg", alt: "PSG Messi T-Shirt", category: "t-shirt" },
     { id: "4", product: "Alex Morgan T-Shirt", description: "100$", src: "./Image/4.jpg", alt: "Alex Morgan T-Shirt", category: "t-shirt" },
